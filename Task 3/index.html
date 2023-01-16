@@ -1,1 +1,33 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Temperature Converter Page</title>
+	<link rel="stylesheet" type="text/css" href="css file.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+<div class="center">
+	
+	<h1>Temperature Converter</h1>
+	<br><br>
+	<i class="fa-solid fa-arrow-right"></i>
+	<form>
+	<table>
+       <tr>
+       	<td><label>From Celcius</label></td>
+       	<td><label class="labelr">Fahrenheit</label></td>
+       </tr>
+		<tr>
+			<td> <input type="number" id="celsius" oninput="celToFar()" placeholder="Temp. in Celcius"></td>
+			<td><input type="number" id="fahrenheit" oninput="farToCel()" placeholder="Temp. in Fahrenheit"></td>
+		</tr>
+		
+		
+	</table>
+</form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
